@@ -1,0 +1,64 @@
+/* HEADER  HEADER  HEADER */
+/* HEADER  HEADER  HEADER */
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #CCCCCC;
+}
+
+ul{
+    background-color: #444;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+
+li{
+    display: inline-block;
+    size: 24px;
+    line-height: 40px;
+    height: 40px;
+    padding: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+/* MAIN  MAIN  MAIN */
+/* MAIN  MAIN  MAIN */
+header h1{
+    font-size: 28px;
+}
+
+header p{
+    font-style: italic;
+}
+
+p{
+    font-size: 24px;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #cccccc;
+}
+
+section{
+    margin-left: 20px;
+}
+
+/* FOOTER  FOOTER  FOOTER */
+/* FOOTER  FOOTER  FOOTER */
+
+footer{
+    background-color: #444;
+}
+
+footer p {
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}

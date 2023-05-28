@@ -1,0 +1,10 @@
+@import url("https://use.fontawesome.com/releases/v5.10.2/css/all.css");
+
+.button {
+    background: green(rgb(0, 102, 0));
+}
+
+.hover:hover {
+    border: red;
+    color: blue;
+}
