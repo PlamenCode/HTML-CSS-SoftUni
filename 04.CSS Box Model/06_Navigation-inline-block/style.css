@@ -1,0 +1,15 @@
+html, body{
+    font-family: Helvetica, sans-serif;
+}
+nav{
+    display: inline-block; 
+}
+nav h1{
+    display: inline-block; 
+}
+nav ul{
+    display: inline-block; 
+}
+nav li{
+    display: inline-block; 
+}

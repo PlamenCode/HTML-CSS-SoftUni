@@ -1,0 +1,46 @@
+@import "https://use.fontawesome.com/releases/v5.10.2/css/all.css";
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+section .card{
+    display: block;
+}
+
+.viewport{
+    display: block;
+    position: relative;
+}
+.viewport:nth-child(odd){
+    height: 50vh;
+    background: rgb(0, 180, 242);
+    background: linear-gradient(32deg, rgba(0, 180, 242, 1) 0%, rgba(174, 255, 78, 1) 100%);
+}
+.viewport:nth-child(even) {
+    height: 50vh;
+    background: rgb(224, 4, 75);
+    background: linear-gradient(32deg, rgba(224, 4, 75, 1) 0%, rgba(255, 179, 0, 1) 100%);
+}
+
+.card{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+i {
+    position: relative;
+    color: white;
+    font-size: xx-large;
+    left: -50px;
+    top: -20px;
+}
+
+

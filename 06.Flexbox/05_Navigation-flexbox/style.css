@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+}
+
+header{
+    border-bottom: 2px solid rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav ul a{
+    text-decoration: none;
+    color: rgb(0, 153, 0);
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+li{
+    padding: 2px;
+    margin: 10px;
+    letter-spacing: 2px;
+}
