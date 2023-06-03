@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap');
+
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Inter, sans-serif;
+    color: white;
+    font-size: 24px;
+}
+
+section.plans{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background-image: url('./image/background.jpg');
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 80px;
+}
+
+.payment{
+    background-color: white;
+    color: black;
+    padding: 15px 20px;
+    max-width: 33%;
+    height: 80%;
+    padding: 30px 40px;
+    position: relative;
+}
+
+.plan{
+    font-weight: bold;
+    margin-bottom: 50px;
+    font-size: 2rem;
+}
+
+.price{
+    font-weight: bold;
+    font-size: 90px;
+}
+.payment p{
+    margin-bottom: 40px;
+}
+
+h3{
+    font-size: 18px;
+    color: rgb(148, 148, 148);
+    margin-bottom: 40px;
+}
+
+button{
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 18px 24px;
+    color: white;
+    background-color: black;
+}
+
+ul li{
+    margin-bottom: 16px;
+}
+
+.premium,
+.basic{
+    height: 85%;
+}
+
+.standart{
+    height: 95%;
+}
