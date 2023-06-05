@@ -1,5 +1,62 @@
 @media screen and (max-width: 600px){
-    body{
-        background-color: red;
+    .navigation-nav{
+        display: none;
+    }
+
+    main{
+        margin-top: 80px;
+    }
+
+    span.home-text{
+        display: none;
+    }
+    
+    .home-text01{
+        margin-top: 10px;
+    }
+
+    .home-tab-selector-cards-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .home-about{
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .home-about img{
+        display: none;
+    }
+
+    .home-step .home-text10{
+       margin-right: 25px;
+    }
+
+    .home-top-part{
+        flex-direction: column;
+    }
+
+    .home-links-container{
+        flex-direction: column;
+    }
+
+    .home-product-container,
+    .home-navigate-container,
+    .home-contact-container{
+        margin-bottom: 30px;
+    }
+
+    .home-subscribe-container{
+        width: 50%;
+    }
+
+    .home-subscribe-container button{
+        padding: 20px 20px;
+    }
+
+    .section-container{
+        padding-bottom: 30px;
+        padding-top: 30px;
     }
 }
