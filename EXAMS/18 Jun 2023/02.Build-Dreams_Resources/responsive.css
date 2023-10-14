@@ -1,0 +1,64 @@
+@media screen and (width <=600px) { 
+    .home-navbar{
+        justify-content: center;
+        gap: 40px;
+    }
+    .home-cta-container > button{
+        padding: 10px 20px;
+    }
+
+    .home-hero{
+        flex-direction: column-reverse;
+    }
+    .home-hero img{
+        width: 100%;
+    }
+    .home-hero-text-container{
+        margin: auto;
+        width: 100%;
+    }
+    .home-hero-text-container > button{
+        padding: 16px 20px;
+        width: 200px;
+        margin: auto;
+    }
+    .home-heading{
+        margin-top: 60px;
+        width: 100%;
+        font-size: 46px;
+    }
+    .home-heading-container{
+        width: 100%;
+    }
+
+    .home-cards-container{
+        flex-direction: column;
+    }
+
+    .home-features{
+        height: 100%;
+    }
+
+    .home-feature-card {
+        width: 100%;
+        align-self: center;
+        align-items: center;
+    }
+    .home-image2,
+    .home-image3,
+    .home-image4 {
+        margin-top: 20px;
+        width: 70%;
+    }
+
+    .home-stats{
+        display: flex;
+        flex-direction: column;
+    }
+    .home-stat,
+    .home-stat1,
+    .home-stat2,
+    .home-stat3{
+        width: 100%;
+    }
+}

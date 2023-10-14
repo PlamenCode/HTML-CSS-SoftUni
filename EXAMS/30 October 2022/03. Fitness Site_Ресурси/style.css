@@ -1,0 +1,173 @@
+*{
+    box-sizing: border-box;
+    --red: #d01919;
+    --gray-text: rgb(190, 190, 190);
+}
+body{
+    width: 100vw;
+}
+header{
+    width: 100%;
+    background-color: var(--red);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 30px;
+}
+header div{
+    display: flex;
+    gap: 6px;
+}
+header div:nth-of-type(3){
+    gap: 12px;
+}
+
+.hero{
+  width: 100%;
+  height: 550px;
+  position: relative;
+  overflow: hidden;
+}
+.hero img{
+    position: absolute;
+    width: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+.hero ul{
+    display: flex;
+    gap: 76px;
+    font-size: 14px;
+    justify-content: end;
+    padding-right: 40px;
+    padding-top: 20px;
+    color: var(--gray-text);
+}
+.hero-info{
+    color: white;
+    text-align: center;
+    margin-top: 120px;
+}
+.hero-info h1{
+    font-size: 60px;
+}
+.hero-info span{
+    margin-right: 10px;
+}
+.hero-info p{
+    margin: auto;
+    margin-top: 30px;
+    width: 30%;
+    font-size: 18px;
+    color: var(--gray-text);
+}
+.hero-info button{
+    background-color: var(--red);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    margin-top: 50px;
+    border-radius: 8px;
+}
+
+
+.wellcome{
+    width: 100%;
+    text-align: center;
+    margin-top: 40px;
+}
+.wellcome h2{
+    font-size: 40px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.wellcome hr{
+    width: 50px;
+    border: 2px solid var(--red);
+    margin: auto;
+    margin-bottom: 40px;
+}
+.wellcome-info{
+    display: flex;
+    justify-content: space-evenly;
+}
+.wellcome-card{
+    width: 17%;
+}
+.wellcome-card img{
+    width: 60px;
+    margin-bottom: 10px;
+}
+.wellcome-card h3{
+    font-size: 20px;
+    color: var(--red);
+    margin-bottom: 20px;
+}
+.wellcome-card p{
+    margin-bottom: 60px;
+}
+
+
+.coaches{
+    width: 100%;
+    text-align: center;
+    padding-top: 40px;
+    background-color: rgb(240, 240, 240);
+}
+.coaches h2{
+    font-size: 40px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.coaches hr{
+    width: 50px;
+    border: 2px solid var(--red);
+    margin: auto;
+    margin-bottom: 40px;
+}
+.coaches-info{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.coaches-card{
+    width: 20%;
+}
+.coaches-img{
+    width: 100%;
+    height: 200px;
+    margin: auto;
+    border-radius: 6px;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+.coaches-img img{
+    width: 100%;
+}
+.coaches-card h3{
+    font-size: 16px;
+    color: black;
+    margin-bottom: 4px;
+    font-weight: bold;
+}
+.coaches-card h4{
+    color: var(--red);
+    margin-bottom: 16px;
+}
+.coaches-card p{
+    margin-bottom: 60px;
+    color: var(--gray-text);
+    font-size: 18px;
+}
+
+footer{
+    background-color: var(--red);
+    height: 40px;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+}
+footer h5 {
+    font-size: 18px;
+    padding-top: 8px;
+}

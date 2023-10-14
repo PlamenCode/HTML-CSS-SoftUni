@@ -1,0 +1,218 @@
+:root{
+    --background: #d9d9d9;
+    --orange: #ff7c4c;
+    --darkgray: rgb(95, 95, 95);
+}
+
+button.main{
+    padding: 8px 16px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+button.secondary{
+    padding: 16px 30px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+body{
+    width: 100vw;
+    background-color: var(--background);
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 60px 10px 60px;
+}
+header ul{
+    display: flex;
+    gap: 26px;
+    padding-left: 40px;
+    font-size: 20px;
+}
+
+main{
+    height: 100vh;
+}
+.hero{
+    height: 80%;
+    overflow: hidden;
+    position: relative;
+}
+.hero img{
+    position: relative;
+    z-index: -2;
+    width: 100%;
+    height: 900px;
+}
+.hero-info{
+    position: absolute;
+    top: 140px;
+    left: 290px;
+    z-index: 2;
+    width: 560px;
+    height: 470px;
+}
+.hero-info h1{
+    font-size: 56px;
+    margin-bottom: 80px;
+    font-weight: bold;
+}
+.hero-info p{
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 40px;
+}
+
+.about{
+    background-color: white;
+    width: 100%;
+    height: 240px;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    padding-top: 60px;
+}
+.about article{
+    width: 300px;
+    text-align: center;
+}
+.about article h2{
+    font-size: 50px;
+    color: var(--orange);
+    font-weight: bolder;
+    margin-bottom: 30px;
+}
+.about article h4{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.about article p{
+    font-size: 14px;
+    color: gray;
+}
+.plus{
+    height: 30px;
+    padding-bottom: 8px;
+    font-weight: bold;
+}
+
+
+.enterprise{
+    display: flex;
+    flex-direction: column;
+    padding: 50px 80px;
+    gap: 30px;
+}
+.enterprise article{
+    display: flex;
+    gap: 30px;
+    
+}
+.enterprise article img{
+    width: 500px;
+}
+.enterprise-info{
+    width: 60%;
+    padding-top: 30px;
+}
+.enterprise-info h3{
+    color: var(--darkgray);
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+.enterprise-info h2{
+    font-size: 38px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+.enterprise-info p{
+    font-size: 19px;
+    color: var(--darkgray);
+    margin-bottom: 6px;
+}
+.enterprise-info a{
+    font-weight: bold;
+    font-size: 18px;
+}
+.enterprise-info p:last-of-type{
+    margin-top: 40px;
+}
+
+
+
+.price{
+    background-color: #f5f5f5;
+    width: 100%;
+}
+.priceing-info{
+    background-color: white;
+    padding: 40px 40px;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    gap: 40px;
+}
+.info-price{
+    width: 33%;
+    padding-top: 40px;
+}
+.info-price h2{
+    font-size: 34px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+.info-price p{
+    font-size: 18px;
+    padding-right: 30px;
+    color:#949494;
+    margin-bottom: 200px;
+}
+
+.priceing-card{
+    width: 30%;
+    background-color: bisque;
+    padding: 40px 20px;
+    text-align: center;
+}
+.priceing-card:nth-of-type(2){
+    background-color: #ff7c4c;
+    color: black;
+}
+.priceing-card:nth-of-type(3){
+    background-color: black;
+    color: white;
+}
+.priceing-card h3{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.priceing-card h1{
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+.priceing-card p{
+    margin-bottom: 10px;
+}
+.priceing-card p:last-of-type{
+    margin-bottom: 40px;
+}
+.priceing-card > .button4{
+    padding: 16px 30px;
+    color: black;
+}
+
+.footer{
+    height: 100px;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer .icon{
+    font-size: 20px;
+}

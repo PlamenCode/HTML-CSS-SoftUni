@@ -1,0 +1,180 @@
+*{
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+body{
+    overflow: auto;
+}
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 80px;
+    margin-top: 20px;
+    align-items: center;
+    font-size: 14px;
+}
+header img{
+    width: 100px;
+}
+.nav a{
+    margin-right: 20px;
+}
+
+.plans{
+    margin-top: 20px;
+    align-items: center;
+    text-align: center;
+    background-color: #54546d;
+    position: relative;
+    height: 300px;
+    padding-top: 40px;
+}
+.plans img{
+    width: 150px;
+    position: absolute;
+    left: -60px;
+    top: 60px;
+}
+.plans h2{
+    color: white;
+    margin-bottom: 40px;
+}
+
+.cards{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: auto;
+}
+
+.card{
+    position: relative;
+    width: 400px;
+    height: 320px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.171);
+    overflow: hidden;
+}
+.card div.info{
+    height: 60%;
+}
+.info p {
+    color: rgb(100, 100, 100);
+}
+.card div.price{
+    height: 34%;
+    color: white;
+    padding-top: 20px;
+}
+.price h3, p{
+    margin: 0px;
+}
+.price h3{
+    margin-bottom: 10px;
+}
+.card:nth-of-type(1) div.price{
+    background: linear-gradient(90deg, rgba(3,155,61,1) 0%, rgba(73,212,127,1) 100%);
+}
+.card:nth-of-type(2) div.price{
+    background: linear-gradient(90deg, rgba(77,108,136,1) 0%, rgba(98,155,208,1) 100%);
+}
+.card:nth-of-type(3) div.price{
+    background: linear-gradient(90deg, rgba(75,56,166,1) 0%, rgba(139,124,224,1) 100%);
+}
+.line{
+    height: 90%;
+    border-left: 2px solid rgba(255, 255, 255, 0.644);
+}
+.card:nth-of-type(3) .line{
+    border-left: 2px solid rgba(255, 255, 255, 0.199);
+}
+.card:nth-of-type(2) div.price, .card:nth-of-type(3) div.price{
+    display: flex;
+    justify-content: space-evenly;
+}
+.card:nth-of-type(2) div.info h3, .card:nth-of-type(3) div.info h3{
+    margin-bottom: 20px;
+}
+.card:nth-of-type(2) div.info p, .card:nth-of-type(3) div.info p{
+    margin-bottom: 20px;
+}
+.card:nth-of-type(2) div.info, .card:nth-of-type(3) div.info{
+    padding: 0 30px;
+}
+.card:nth-of-type(1) div.info h3{
+    margin: 19px 0 5px 0;
+}
+.card:nth-of-type(1) div.info p{
+    margin-bottom: 50px;
+}
+.card:nth-of-type(1) div.info button{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    background-color: #9a5dc6;
+    color: white;
+}
+
+
+.table-info{
+    margin: 0 300px;
+    margin-top: 260px;
+    margin-bottom: 100px;
+    color: rgb(97, 97, 97);
+
+}
+tbody{
+    border-radius: 10px;
+    overflow: hidden;
+}
+.table-info table{
+    margin-top: 40px;
+    text-align: start;
+    width: 100%;
+}
+table tr:nth-child(odd){
+    background-color: rgb(226, 226, 226);
+}
+table tr:nth-child(even){
+    background-color: rgba(226, 226, 226, 0.473);
+}
+
+.table-info table tr th:nth-of-type(1){
+    text-align: start;
+    padding: 10px 10px;
+    width: 60%;
+    color: rgba(110, 110, 110, 0.897);
+}
+.table-info table tr th:nth-of-type(2), .table-info table tr th:nth-of-type(3){
+    text-align: center;
+}
+
+.finance{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    gap: 100px;
+    color: rgb(97, 97, 97);
+    margin-bottom: 100px;
+}
+
+.finance-left p:nth-of-type(1){
+    margin-bottom: 20px;
+}
+
+footer{
+    background-color: #54546d;
+    height: 50px;
+    text-align: center;
+    color: #908da7;
+}
+
+footer p {
+    padding-top: 12px;
+}

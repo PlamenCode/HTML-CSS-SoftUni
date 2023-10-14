@@ -1,0 +1,166 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+}
+.first{
+    position: relative;
+    width: 100%;
+    height: 140vh;
+    background-image: url("./image/image.jpg");
+    background-position: 0% 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    align-items: center;
+}
+
+.interior-design{
+    position: absolute;
+    width: 280px;
+    height: 240px;
+    background-color: rgba(255, 255, 255, 0);
+    left: 180px;
+    top: 40px;
+    border: 1px solid rgba(124, 124, 124, 0.205);
+    box-shadow: 2px 2px 10px black;
+    padding: 30px 20px;
+}
+.interior-design h1{
+    font-size: 46px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+.interior-design hr{
+    width: 65%;
+    border: 2px solid white;
+    margin-bottom: 10px;
+}
+.interior-design p{
+    font-size: 26px;
+}
+
+.info{
+    position: absolute;
+    width: 380px;
+    height: 380px;
+    background: rgb(166,161,159);
+    background: linear-gradient(90deg, rgba(166,161,159,1) 0%, rgba(203,203,203,1) 72%, rgb(187, 189, 180) 100%);
+    right: 160px;
+    top: 300px;
+    box-shadow: 2px 2px 10px rgb(77, 77, 77);
+    border: 1px solid rgb(150, 150, 150);
+    padding: 40px 14px;
+    text-align: end;
+}
+.quotes{
+    width: 100%;
+    text-align: end;
+    height: 60px;
+}
+.quotes h1{
+    font-size: 80px;
+    color: gray;
+}
+.info p{
+    color: white;
+    font-size: 22px;
+}
+
+.second{
+    width: 1400px;
+    height: 120vh;
+    margin: auto;
+    background-color: #f2f0f3;
+    display: flex;
+}
+.information{
+    width: 70%;
+}
+.numbers{
+    width: 30%;
+    background-color: #bab1ad;
+}
+
+
+
+.our-services{
+    padding: 40px 80px;
+}
+.our-services h2{
+    font-size: 60px;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+.our-services ul li{
+    font-size: 23px;
+    margin-bottom: 30px;
+}
+.our-services ul li strong{
+    font-weight: bold;
+    margin-right: 4px;
+    margin-left: 8px;
+}
+
+
+.contacts{
+    width: 100%;
+}
+.contacts .inside{
+    padding: 10px 80px;
+    width: 100%;
+}
+.contacts hr{
+    width: 100%;
+    border: 1px solid black;
+}
+.contacts h2{
+    font-size: 60px;
+    font-weight: bold;
+}
+.contacts ul{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: 20px 0px 40px 0px;
+}
+.contacts ul li{
+    font-size: 23px;
+}
+.contacts ul li strong{
+    font-weight: bold;
+}
+.contacts form input{
+    width: 52%;
+    padding: 14px;
+    margin-right: 20px;
+    background-color: #bab1ad;
+    color: white;
+    border-radius: 4px;
+}
+.contacts form button{
+    width: 16%;
+    padding: 14px;
+    background-color: #67784d;
+    color: white;
+    text-align: center;
+    border-radius: 4px;
+}
+
+
+.numbers{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 40px 40px;
+    gap: 60px;
+}
+.number h2{
+    font-size: 90px;
+    color: white;
+}
+.number p{
+    font-size: 26px;
+}
+
+

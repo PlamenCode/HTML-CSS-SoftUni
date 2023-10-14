@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link rel="stylesheet" href="../../reset.css" /> -->
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+</head>
+
+<body>
+    <main>
+        <article class="card">
+            <img src="./image/calculator.png" alt="" />
+
+            <div class="card-info">
+                <h1>Fitness Calculator</h1>
+                <div class="buttons">
+                    <button class="button1">Standart units (US)</button>
+                    <button class="button2">Metric units</button>
+                </div>
+
+                <form action="">
+                    <h3 id="gender">Gender</h3>
+                    <div class="gender">
+                        <select id="gender" name="gender">
+                            <option value="Female">Female</option>
+                            <option value="Male">Male</option>
+                            <option value="Other">Other</option>
+                        </select>
+                        <input type="text" name="years" placeholder="Years..."/>
+                    </div>
+
+                    <h3>Weight</h3>
+                    <div class="pounds">
+                        <input type="text" name="weight" placeholder="Pounds..." />
+                    </div>
+
+                    <h3>Height</h3>
+                    <div class="height">
+                        <input type="text" name="height" placeholder="Feet..." />
+                        <input type="text" name="height" placeholder="Inches..." />
+                    </div>
+
+                    <button type="submit" class="button3">Calculate</button>
+                </form>
+            </div>
+        </article>
+    </main>
+</body>
+
+</html>
