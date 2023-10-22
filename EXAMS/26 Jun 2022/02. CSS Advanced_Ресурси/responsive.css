@@ -1,0 +1,110 @@
+@media screen and (width <= 600px) {
+    body{
+        width: 100vw;
+        padding: 0px;
+        margin: 0px;
+    }
+    main{
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
+    }
+    .left-to-right:nth-of-type(1){
+        padding: 40px 0px;
+        height: 100vh;
+    }
+    .left-to-right:nth-of-type(1) article{
+        width: 80%;
+        height: 90%;
+        margin: auto;
+        padding: 0px;
+        border-radius: 100px;
+    }
+    .left-to-right:nth-of-type(1) article button{
+        display: none;
+    }
+    .left-to-right:nth-of-type(1) article p{
+        padding: 0px 40px;
+        font-size: 16px;
+    }
+    .left-to-right:nth-of-type(1) article header p{
+        font-size: 22px;
+    }
+    .left-to-right:nth-of-type(1) article header h1{
+        font-size: 40px;
+        padding-top: 20px;
+        margin: 0px;
+    }
+
+
+    main section:nth-of-type(2){
+        flex-direction: column;
+        padding: 0px 40px;
+    }
+    main section:nth-of-type(2) button{
+        display: none;
+    }
+    main section:nth-of-type(2) h1{
+        font-size: 36px;
+    }
+    main section:nth-of-type(2) article:nth-of-type(2){
+        margin: auto;
+        align-items: center;
+    }
+
+
+    main section.left-to-right:nth-child(3) {
+       height: 100vh;
+       padding: 50px 0px;
+    }
+    main section.left-to-right:nth-of-type(3) article{
+        width: 70%;
+        height: 78%;
+        margin: auto;
+        padding: 0px;
+        border-radius: 100px;
+    }
+    main section.left-to-right:nth-of-type(3) article button{
+        display: none;
+    }
+    main section.left-to-right:nth-of-type(3) article h1{
+        font-size: 30px;
+    }
+    main section.left-to-right:nth-of-type(3) article p{
+        padding: 0px 46px;
+    }
+
+
+
+    main section:nth-of-type(4){
+        flex-direction: column;
+        align-items: center;
+    }
+    main section:nth-of-type(4) article{
+        width: 100vw;
+        align-items: center;
+        text-align: center;
+    }
+    main section:nth-of-type(4) article form{
+        width: 100%;
+        margin: auto;
+
+    }
+    main section:nth-of-type(4) article form lable{
+        width: 80%;
+        margin: auto;
+    }
+    main section:nth-of-type(4) article form input{
+        width: 60%;
+        margin: auto;
+    }
+    main section:nth-of-type(4) article form textarea{
+        width: 60%;
+        margin: auto;
+    }
+    #send{
+        width: 16%;
+        margin-top: 30px;
+        padding: 10px 20px;
+    }
+}

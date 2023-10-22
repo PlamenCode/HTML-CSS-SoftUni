@@ -1,24 +1,5 @@
-Whiteboard
-HustleCase
-Card
-Whiteboard your ideas anywhere
-The world`s first whiteboard laptop case. Just snap it on and whiteboard on the go.
-Buy now
-See it in action
-A Hustle-what?
-HustleCase is a lightweight whiteboard laptop case that makes it easy to:
-Sketch on the go
-Snap on and off easily
-Protect from scrapes and scratches
-Write smoothly and erase quickly
-Gift the special hustler in your life
-HustleCase is perfect for
-Wireframing
-Sketching
-Sitemapping
-To-dos
-Notes
-Interviews
+
+
 Have questions?
 Why did you create HustleCase?
 When you want to capture a quick sketch, we recommend using an app called Microsoft Office Lens that has a whiteboard setting to capture photos.

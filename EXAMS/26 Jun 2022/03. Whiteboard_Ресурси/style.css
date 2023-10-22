@@ -1,0 +1,165 @@
+body{
+    width: 100vw;
+}
+
+header{
+    position: relative;
+    width: 100vw;
+    height: 90vh;
+    overflow: hidden;
+    background-color: black;
+    z-index: 0;
+    color: white;
+}
+header img{
+    position: absolute;
+    object-fit: fill;
+    z-index: -1;
+    opacity: 50%;
+    min-width: 100%;
+    min-height: 1200px; 
+    top: -270px;  
+}
+header .nav{
+    font-size: 30px;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 190px 20px 190px;
+}
+header .hero{
+    width: 100%;
+    text-align: center;
+    padding-top: 70px;
+    display: flex;
+    flex-direction: column;
+}
+.hero h1{
+    font-size: 80px;
+    margin-bottom: 40px;
+}
+.hero p{
+    font-size: 30px;
+    width: 40%;
+    margin: auto;
+}
+.hero button{
+    font-size: 30px;
+    background-color: rgb(63, 206, 156);
+    width: 10%;
+    margin: auto;
+    margin-top: 60px;
+    padding: 8px 10px;
+    border-radius: 4px;
+    border: 4px solid rgb(63, 206, 156);
+}
+button:hover{
+    background-color: rgba(255, 255, 255, 0);
+    border: 4px solid white;
+}
+.hero a{
+    margin-top: 60px;
+    font-size: 30px;
+}
+
+.what{
+    display: flex;
+}
+.what img{
+    width: 50%;
+}
+.what-list{
+    padding: 40px 60px;
+}
+.what-list h2{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.what-list p{
+    width: 90%;
+    font-size: 28px;
+    margin-bottom: 40px;
+}
+.what-list ul li{
+    font-size: 24px;
+    margin-bottom: 30px;
+    display: flex;
+    gap: 30px;
+}
+.what-list ul li:last-of-type{
+    margin-bottom: 0px;
+}
+
+.perfect{
+    display: flex;
+}
+.perfect img{
+    width: 50%;
+}
+.perks{
+    width: 50%;
+    padding: 40px 40px 20px 40px;
+    text-align: center;
+}
+.perks h2{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 60px;
+}
+.perks ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.perks ul li{
+    width: 31%;
+}
+.perfect ul li p{
+    margin: 10px 0px 30px 0px;
+    font-size: 30px;
+    font-weight: bolder;
+    color: rgb(18, 207, 144);
+}
+
+
+
+.questions{
+    width: 100%;
+    background-color: #b2f1dd;
+    padding: 40px 120px;
+    text-align: center;
+}
+.questions h2{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 60px;
+}
+.first, .second{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+.first div, .second div{
+    width: 30%;
+}
+.first{
+    margin-bottom: 60px;
+}
+.second{
+    margin-bottom: 30px;
+}
+.first h3, .second h3{
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+.first p, .second p{
+    padding: 0px 14px;
+    font-size: 20px;
+}
+.questions > p{
+    font-size: 21px;
+}
+.questions > p a{
+    font-weight: bold;
+}

@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+body{
+    width: 100vw;
+    background-color: rgb(243, 243, 243);
+    text-align: center;
+    padding: 60px;
+    font-family: Courgette, sans-serif;
+}
+h1{
+    font-size: 60px
+}
+h2{
+    font-size: 28px;
+    padding-left: 240px;
+    color: rgb(206, 0, 0);
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.card{
+    width: 24%;
+    overflow: hidden;
+    border-radius: 18px;
+    background-color: white;
+    height: 520px;
+}
+.card h3{
+    font-size: 26px;
+    font-weight: bold;
+    padding: 10px;
+}
+.card hr{
+    width: 92%;
+    border-bottom: 1px solid rgb(206, 0, 0);
+    margin: auto;
+    margin-bottom: 20px;
+}
+.card p{
+    margin: auto;
+    padding: 0px 16px;
+    font-size: 18px;
+    height: 50px;
+    margin-bottom: 50px;
+}
+.card a{
+    font-size: 18px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+}
+.card a i{
+    padding-left: 20px;
+}
